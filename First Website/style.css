@@ -1,0 +1,41 @@
+body {
+    background-color: #242424;
+}
+
+header {
+    font-size: 80px;
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav {
+    margin-right: 100px;
+    margin-left: auto;
+}
+
+.nav-links {
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family:monospace;
+    transition-duration: 500ms;
+    transition-property: font-size, background-color, border, color, border-radius;
+    transition-timing-function: cubic-bezier(0.13, 0.29, 0.5, 0.95);
+}
+
+.nav-links:hover {
+    font-size: 35px;
+    background-color: #404040;
+    border: 3px solid white;
+    color: white;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: monospace;
+    color: white;
+    cursor: default;
+}

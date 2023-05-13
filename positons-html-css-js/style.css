@@ -1,0 +1,23 @@
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid black;
+    border-radius: 8px;
+    cursor: grab;
+  }
+
+  #box:active {
+    background-color: rgb(8, 42, 236);
+    position: absolute;
+    cursor: grabbing;
+  }
+
+  h3 {
+    padding-left: 3px;
+    padding-right: 3px;
+  }
